@@ -7,6 +7,9 @@ import android.util.Log;
  */
 
 public class BeanTest {
+    private String name;
+    private int age;
+    private int gender;
     private void newMethod(){
         Log.e("TAG","Test");
     }
