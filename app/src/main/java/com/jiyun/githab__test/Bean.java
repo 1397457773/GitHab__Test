@@ -8,4 +8,14 @@ public class Bean {
     private String name;
     private int age;
     private int gender;
+
+    public Bean() {
+    }
+
+    public Bean(String name, int age, int gender) {
+
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+    }
 }
